@@ -180,3 +180,12 @@
     font-size: 12px;
   }
 }
+
+@media (max-width: 768px) {
+  .header {
+    align-items: center;
+  }
+   .header .logo {
+  font-size: 1.1em; 
+}
+}

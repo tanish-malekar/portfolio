@@ -8,7 +8,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 // Splash Screen
 
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: false, // set false to disable splash screen
   animation: splashAnimation,
   duration: 2000 // Set animation duration as per your animation
 };
@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Tanish Malekar",
-  title: "Hi all, I'm Tanish",
+  title: "Hi all, I'm Tanish.",
   subTitle: emoji(
-    "I’m a builder at heart — a CS grad student at Stony Brook turning ideas into scalable systems. From distributed systems to AI to full-stack, I love pushing tech that’s fast, smart, and built to last."
+    "I’m a builder at heart — a CS grad student at Stony Brook University turning ideas into scalable systems, from distributed systems to AI to full-stack development."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button

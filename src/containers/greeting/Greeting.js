@@ -25,7 +25,7 @@ export default function Greeting() {
               >
                 {" "}
                 {greeting.title}{" "}
-                <span>{emoji("⚡️")}</span>
+        
               </h1>
               <p
                 className={
