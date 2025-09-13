@@ -127,7 +127,7 @@ const educationInfo = {
     },
     {
       schoolName: "Vellore Institute of Technology, India",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/vitLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2019 - April 2023",
     }
