@@ -179,7 +179,7 @@ const workExperiences = {
       companylogo: require("./assets/images/bajajLogo.png"),
       date: "Jan 2023 – Jun 2023",
       descBullets: [
-        "Developed a virtual patient queue (Spring Boot, Redis, WebSockets) supporting 900+ concurrent users with priority-based ranking",
+        "Developed a virtual patient queue (Django, Redis, WebSockets) supporting 900+ concurrent users with priority-based ranking",
         "Built CI/CD pipelines (Jenkins) for 5+ services; improved quality with 85% test coverage and SonarQube integration"
       ]
     },
