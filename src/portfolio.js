@@ -166,10 +166,10 @@ const workExperiences = {
       companylogo: require("./assets/images/bajajLogo.png"),
       date: "Jul 2023 – Jul 2025",
       descBullets: [
-        "Built a health camp booking platform (React, Next.js, Django, PostgreSQL) handling 100k+ bookings for 15+ enterprise clients (Meta, LinkedIn, Amex etc.)",
-        "Constructed an OCR pipeline for handwritten prescriptions using Python, Azure Form Recognizer, OpenCV, and GPT-3.5, achieving 92%+ accuracy on multilingual, unstructured inputs",
+        "Built a health camp booking platform, handling 100k+ bookings for 15+ enterprise clients (Meta, LinkedIn, Amex etc.)",
         "Designed a fault-tolerant refund flow with AWS SQS (circuit breakers, DLQs), ensuring 99.9% reliability for 1K+ monthly transactions",
         "Enabled real-time search on 1M+ lab tests by replacing cron sync with Kafka CDC, cutting latency from 2 hrs to near real-time",
+        "Constructed an OCR pipeline for handwritten prescriptions using Python, Azure Form Recognizer, OpenCV, and GPT-3.5, achieving 92%+ accuracy on multilingual, unstructured inputs",
         "Set up ELK-based observability (tracing, dashboards, alerts) for 7+ services, reducing MTTR by 40%"
       ]
     },
@@ -179,7 +179,7 @@ const workExperiences = {
       companylogo: require("./assets/images/bajajLogo.png"),
       date: "Jan 2023 – Jun 2023",
       descBullets: [
-        "Developed a virtual patient queue (Django, Redis, WebSockets) supporting 900+ concurrent users with priority-based ranking",
+        "Developed a virtual patient queue, supporting 900+ concurrent users with priority-based ranking",
         "Built CI/CD pipelines (Jenkins) for 5+ services; improved quality with 85% test coverage and SonarQube integration"
       ]
     },
