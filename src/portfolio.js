@@ -166,11 +166,11 @@ const workExperiences = {
       companylogo: require("./assets/images/bajajLogo.png"),
       date: "Jul 2023 – Jul 2025",
       descBullets: [
-        "Built a health camp booking platform, handling 100k+ bookings for 15+ enterprise clients (Meta, LinkedIn, Amex etc.)",
         "Built an agentic chatbot using Python, LangChain, and Gemini-2.5-Pro to automatically add, update, and remove lab tests from medical catalog, cutting catalog update time by 70%",
-        "Designed an agentic order flow system with an MCP server, enabling chat-based medicine ordering and boosting order volume by 2.5x.",
-        "Constructed an OCR pipeline for handwritten prescriptions using Python, Azure Form Recognizer, OpenCV, and GPT-3.5, achieving 92%+ accuracy on multilingual, unstructured inputs",
-        "Built a virtual patient queue system with Java (Spring Boot), Redis (Sorted for priority-based ranking; added WebSockets for real-time updates, supporting 900+ concurrent users.",
+        "Designed an agentic order flow system with an MCP server, enabling chat-based medicine ordering and boosting order volume by 2.5x",
+        "Constructed an OCR system for medical prescriptions using Python, Google Cloud Document AI, OpenCV, and Gemini, achieving 92%+ accuracy across multilingual inputs",
+        "Built a health camp booking platform, handling 100k+ bookings for 15+ enterprise clients (Meta, LinkedIn, Amex etc.)",
+        "Built a virtual patient queue system with Java (Spring Boot), Redis (Sorted for priority-based ranking; added WebSockets for real-time updates, supporting 900+ concurrent users",
         "Enabled real-time search on 1M+ lab tests by replacing cron sync with Kafka CDC, cutting latency from 2 hrs to near real-time",
         "Set up ELK-based observability (tracing, dashboards, alerts) for 7+ services, reducing MTTR by 40%"
       ]
