@@ -166,14 +166,13 @@ const workExperiences = {
       companylogo: require("./assets/images/bajajLogo.png"),
       date: "Jul 2023 – Jul 2025",
       descBullets: [
-        "Built an agentic chatbot using Python, LangChain, and Gemini-2.5-Pro to automatically add, update, and remove lab tests from medical catalog, cutting catalog update time by 70%",
-        "Designed an agentic order flow system with an MCP server, enabling chat-based medicine ordering and boosting order volume by 2.5x",
-        "Constructed an OCR system for medical prescriptions using Python, Google Cloud Document AI, OpenCV, and Gemini, achieving 92%+ accuracy across multilingual inputs",
-        "Built a health camp booking platform, handling 100k+ bookings for 15+ enterprise clients (Meta, LinkedIn, Amex etc.)",
-        "Built a virtual patient queue system with Java (Spring Boot), Redis (Sorted for priority-based ranking; added WebSockets for real-time updates, supporting 900+ concurrent users",
-        "Enabled real-time search on 1M+ lab tests by replacing cron sync with Kafka CDC, cutting latency from 2 hrs to near real-time",
-        "Set up ELK-based observability (tracing, dashboards, alerts) for 7+ services, reducing MTTR by 40%"
-      ]
+  "Developed an agentic doctor-routing system (Python, LangChain, GPT-4o) to analyze symptoms, check insurance coverage, and auto-match patients to in-network doctors → replaced 15+ manual agents",
+  "Built a RAG-based insurance-benefits assistant (text-embedding-005, pgvector) delivering instant coverage and eligibility answers → reduced support queries by 45%",
+  "Launched a health-camp booking platform (React, Next.js, Django, PostgreSQL) supporting 100k+ bookings for 15+ enterprise clients (Meta, LinkedIn, Amex) → enabled high-scale event operations",
+  "Constructed a virtual patient-queue system (Spring Boot, Redis Sorted Sets, WebSockets) for real-time updates → supported 900+ concurrent users",
+  "Constructed an OCR system for medical prescriptions (Python, Google Cloud Document AI, OpenCV, and Gemini) → achieved 92%+ accuracy across multilingual inputs",
+  "Implemented ELK-based observability (logs, tracing, dashboards, alerts) for 7+ services → reduced MTTR by 40%"
+]
     },
     {
       role: "Software Engineer Intern",
@@ -181,9 +180,11 @@ const workExperiences = {
       companylogo: require("./assets/images/bajajLogo.png"),
       date: "Jan 2023 – Jun 2023",
       descBullets: [
-        "Designed a fault-tolerant refund flow with AWS SQS (circuit breakers, DLQs), ensuring 99.9% reliability for 1K+ monthly transactions",
-        "Built CI/CD pipelines (Jenkins) for 5+ services; improved quality with 85% test coverage and SonarQube integration"
-      ]
+  "Enabled real-time search on 1M+ lab tests by replacing cron-based MySQL→Elasticsearch sync with Kafka CDC → reduced latency from 2 hrs to near real-time",
+  "Designed a fault-tolerant refund pipeline using AWS SQS (DLQs, circuit breakers) to process 1K+ monthly transactions → achieved 99.9% reliability",
+  "Enabled shared caching across pods using GCP Filestore with Kubernetes Persistent Volumes, cutting memory usage by 80%.",
+  "Built CI/CD pipelines (Jenkins) for 5+ services with automated testing and SonarQube gating → improved code quality to 85%+ test coverage"
+]
     },
     {
       role: "Full Stack Developer Intern",
