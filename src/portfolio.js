@@ -172,7 +172,6 @@ const workExperiences = {
     "Implemented a Redis-based API rate limiter to maintain availability under 50K+ req/sec peak load",
     "Developed an agentic doctor-routing system (Python, LangChain, GPT-4o) to analyze symptoms, check insurance coverage, and auto-match patients to in-network doctors → replaced 15+ manual agents",
     "Built a RAG-based insurance-benefits assistant (text-embedding-005, pgvector) delivering instant coverage and eligibility answers → reduced support queries by 45%",
-    "Implemented ELK-based observability (logs, tracing, dashboards, alerts) for 7+ services → reduced MTTR by 40%"
   ]
 },
 {
