@@ -161,31 +161,31 @@ const workExperiences = {
   display: true,
   experience: [
     {
-      role: "Software Engineer",
-      company: "Bajaj Finserv Health",
-      companylogo: require("./assets/images/bajajLogo.png"),
-      date: "Jul 2023 – Jul 2025",
-      descBullets: [
-  "Developed an agentic doctor-routing system (Python, LangChain, GPT-4o) to analyze symptoms, check insurance coverage, and auto-match patients to in-network doctors → replaced 15+ manual agents",
-  "Built a RAG-based insurance-benefits assistant (text-embedding-005, pgvector) delivering instant coverage and eligibility answers → reduced support queries by 45%",
-  "Launched a health-camp booking platform (React, Next.js, Django, PostgreSQL) supporting 100k+ bookings for 15+ enterprise clients (Meta, LinkedIn, Amex) → enabled high-scale event operations",
-  "Constructed a virtual patient-queue system (Spring Boot, Redis Sorted Sets, WebSockets) for real-time updates → supported 900+ concurrent users",
-  "Constructed an OCR system for medical prescriptions (Python, Google Cloud Document AI, OpenCV, and Gemini) → achieved 92%+ accuracy across multilingual inputs",
-  "Implemented ELK-based observability (logs, tracing, dashboards, alerts) for 7+ services → reduced MTTR by 40%"
-]
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Bajaj Finserv Health",
-      companylogo: require("./assets/images/bajajLogo.png"),
-      date: "Jan 2023 – Jun 2023",
-      descBullets: [
-  "Enabled real-time search on 1M+ lab tests by replacing cron-based MySQL→Elasticsearch sync with Kafka CDC → reduced latency from 2 hrs to near real-time",
-  "Designed a fault-tolerant refund pipeline using AWS SQS (DLQs, circuit breakers) to process 1K+ monthly transactions → achieved 99.9% reliability",
-  "Enabled shared caching across pods using GCP Filestore with Kubernetes Persistent Volumes, cutting memory usage by 80%.",
-  "Built CI/CD pipelines (Jenkins) for 5+ services with automated testing and SonarQube gating → improved code quality to 85%+ test coverage"
-]
-    },
+  role: "Software Engineer",
+  company: "Bajaj Finserv Health",
+  companylogo: require("./assets/images/bajajLogo.png"),
+  date: "Jul 2023 – Jul 2025",
+  descBullets: [
+    "Built 7+ distributed microservices in Java (Spring Boot, gRPC, Postgres) with Kafka/SQS, Redis/Memcached, and indexing → supported 50K+ req/sec for 15+ enterprise clients",
+    "Developed a low-latency patient-queue system (Redis Sorted Sets, WebSockets) achieving <50 ms updates and 900+ concurrent users",
+    "Engineered a fault-tolerant refund pipeline (AWS SQS, DLQs, circuit breakers) ensuring 99.9% reliability for 1K+ monthly transactions",
+    "Implemented a Redis-based API rate limiter to maintain availability under 50K+ req/sec peak load",
+    "Developed an agentic doctor-routing system (Python, LangChain, GPT-4o) to analyze symptoms, check insurance coverage, and auto-match patients to in-network doctors → replaced 15+ manual agents",
+    "Built a RAG-based insurance-benefits assistant (text-embedding-005, pgvector) delivering instant coverage and eligibility answers → reduced support queries by 45%",
+    "Implemented ELK-based observability (logs, tracing, dashboards, alerts) for 7+ services → reduced MTTR by 40%"
+  ]
+},
+{
+  role: "Software Engineer Intern",
+  company: "Bajaj Finserv Health",
+  companylogo: require("./assets/images/bajajLogo.png"),
+  date: "Jan 2023 – Jun 2023",
+  descBullets: [
+    "Enabled real-time search on 1M+ lab tests by replacing cron-based MySQL→Elasticsearch sync with Kafka CDC → reduced latency from 2 hrs to near real-time",
+    "Set up ELK-based observability (tracing, dashboards, alerts) for 7+ services → reduced MTTR by 40%",
+    "Built CI/CD pipelines (Jenkins) for 5+ services with automated testing and SonarQube gating → improved code quality to 85%+ test coverage"
+  ]
+},
     {
       role: "Full Stack Developer Intern",
       company: "Protal",
